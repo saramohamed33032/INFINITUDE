@@ -1,0 +1,509 @@
+body{
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+    
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-transform: uppercase; 
+    background: none;background: rgba(10, 10, 10, 0.67);
+    
+     
+}
+.overlay h1{
+    font-size: 3em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding:5% 0; 
+   
+}
+
+.overlay .navbar{
+   border-bottom:2px solid #fff;
+   
+}
+
+.overlay .navbar a{
+    color: #fff;
+    font-weight: 600;
+    
+}
+.overlay .nav a:hover{
+  color:#FEAC16;
+}
+.overlay .dropdown-menu a{
+   
+   color: #000;
+}
+.overlay .text{
+    text-align: center;
+    margin: 3% 0;
+  
+}
+.overlay .text .btn-outline-secondary{
+    border-color: #fff;
+    color: #fff;
+}
+.overlay .text .btn-outline-secondary:hover{
+    background-color: #E0A800;
+}
+
+.overlay .list{
+    text-align: center;
+}
+.overlay .list a{
+     color: #fff;
+    font-weight:bold;
+    font-size:20px; 
+     
+}
+.overlay .list a:hover{
+    color: #fff;
+}
+.overlay .list span{
+    color: #fff;
+    font-weight: 200;
+}
+
+
+/******Section DEsign *****/
+main .Design{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+main .Design h1{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000;
+}
+main .Design h1 span{
+    color: #FEAC00;
+}
+main .Design p{
+    text-transform: capitalize;
+    line-height:1.7;
+    font-size:18px; 
+    color: #777777;
+    
+}
+main .btn .btn-warning{
+    background-color: #FEAC00;
+    padding:10px 20px;  
+}
+
+
+/******Section Changing *****/
+main .chaning{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    background-color: #F7F7F7;
+    padding:60px ; 
+    
+}
+
+main .chaning .ser{
+    padding-bottom:40px; 
+     
+}
+main .chaning .ser img{
+    width: 100%;
+    
+}
+main .chaning .ser p{
+    text-transform: capitalize;
+    line-height:1.6;
+    font-size:16px;
+    color: #777777;
+}
+main .chaning .ser a:hover{
+    color: #E0B95F;
+}
+main .chaning .Icons{
+    padding: 50px 0;
+    text-align: center;
+    border-top:1px solid #999999; 
+    
+}
+main .Icons .nav-link{
+    font-size:30px;
+     color: #FEAC00;
+    
+    font-weight: 900;
+    
+}
+main .Icons .nav-link span{
+    
+    color: #000;
+    padding-left:15px; 
+    font-size:25px;
+    font-weight:500; 
+}
+main .Icons  p{
+    color: #000;
+    padding-left:35%; 
+    font-size:18px;
+    font-weight:400;
+    text-align: left;
+    
+}
+
+
+
+
+/******Section Network *****/
+main .Network{
+    
+    background-image: url(../img/ab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    overflow: hidden;
+    
+}
+main .Network .over-lay-blue{
+    
+    background: rgba(10, 10, 10, 0.67);
+}
+main .Network .over-lay-blue .img h1{
+   font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+}
+main .Network .over-lay-blue .img h1 span{
+   color: #FEAC00;
+}
+
+main .Network .over-lay-blue .img p{
+   text-transform: capitalize;
+    line-height:1.4;
+    font-size:17px; 
+    color: #fff;
+}
+main .Network .over-lay-blue .img img{
+    width: 100%;
+}
+main .Network .Icons{
+    padding-top:10%; 
+}
+main .Network .Icons .nav-link {
+    color: #fff;
+}
+
+main .Network .Icons .nav-link span{
+     
+    color: #fff;
+}
+main .Network .Icons .nav-link span:hover{
+    color: #FEAC00;
+}
+main .Network .Icons   p{
+    color:#D5D7B1;
+    font-size:15px;
+    padding-left:25%;
+    
+}
+
+/******Section Projects *****/
+main .projects{
+    margin-top:70px;
+    margin-bottom:70px; 
+    overflow: hidden;
+}
+.heading{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000;
+    text-align: center;
+    padding-bottom:2%; 
+    font-size: 25px;
+}
+main .projects img{
+    width: 100%;
+    border:5px solid #ddd; 
+}
+
+main .projects .btn-primary {
+     color: #fff;
+     background-color: #fff;; 
+     border-color: #fff;
+
+
+}
+main .projects .btn-primary:hover{
+      color: #fff;
+     background-color: #fff; 
+     border-color: #fff;
+}
+main .projects .card{
+    border-color: #fff;
+}
+main .projects .card .tex{
+    text-align:left; 
+    padding-left: 3.7rem; 
+    
+    
+}
+
+main .projects .card .tex span{
+    color: #000;
+    
+    
+}
+main .projects .card .tex p{
+    color: #777;
+     
+    
+}
+
+
+/******Section Posts *****/
+main .Posts {
+      margin-top:70px;
+    margin-bottom:70px; 
+    overflow: hidden;
+}
+main .Posts img{
+    width: 100%;
+    border:1px solid #fff; 
+}
+main .Posts .btn-primary {
+     color: #fff;
+     background-color: #fff;; 
+     border-color: #fff;
+
+
+}
+main .Posts .btn-primary:hover{
+      color: #fff;
+     background-color: #fff; 
+     border-color: #fff;
+}
+main .Posts .tex{
+    border-color: #fff;
+    background-color:#000000;
+    color:#fff; 
+     
+}
+main .Posts .card .card-body a img{
+    width: 100%;
+    height: auto;
+}
+main .Posts .card-body{
+    padding: 1.85rem;
+}
+main .Posts .card-body a{
+    color: #FEAC00;
+    
+}
+main .Posts .card-body h5:hover{
+    color: #FEAC00;
+}
+
+/******Section contact *****/
+main .Contact{
+    margin-top:70px;
+    
+    overflow: hidden;
+    background-color:#F7F7F7;
+    padding:70px 10px; 
+}
+main .Contact form{
+    background-color:#fff;
+    padding:3.9rem; 
+     
+}
+main .Contact form label{
+    color: #777;
+    font-size:16px; 
+}
+main .btn {
+    background-color: #FEAC00;
+    padding:10px 45px;  
+}
+main .btn:hover{
+    background-color:#333; 
+    color: #fff;
+}
+main .Contact .con{
+   margin-left:2.4rem; 
+}
+main .Contact .con img{
+    padding-bottom:1rem;
+    width: 100%;
+}
+main .Contact .con h5{
+    color:#333;
+    text-transform: capitalize;
+    padding:5px; 
+}
+main .Contact .con p{
+    color: #777;
+    font-size:16px;
+    
+}
+
+/******Section Testimonials*****/
+
+main .testimials{
+    margin-bottom:70px; 
+    overflow: hidden;
+    background-image:url(../img/ab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+main .testimials .heading{
+    color: #fff;
+}
+main .testimials .over-lay-blue {
+    
+       z-index: 33;
+    background: rgba(10, 10, 10, 0.67);
+}
+main .testimials .card {
+    padding:2.4rem; 
+    margin:.8rem; 
+}
+main .testimials .card a{
+    margin-bottom:1.5rem  ;
+   color: #777;
+}
+main .testimials .card a i{
+    color: #ddd;
+}
+main .testimials .card span{
+     
+    margin-left:.5rem; 
+}
+
+/******Section Newsletters*****/
+main .News{
+    padding-top:20px;
+    padding-bottom: 80px;
+    
+}
+main .News .heading h3{
+    text-align: left;
+}
+main .News h5{
+    color:#7D858C; 
+    margin:1rem;
+}
+
+main .News input{
+    padding: .7rem;
+    margin:.7rem;
+}
+main .News .btn{
+    text-align: center;
+    padding:.7rem ;
+}
+
+/******Section footer*****/
+footer{
+    padding-top:30px;
+    background-color:#000; 
+    color: #777;
+}
+footer a{
+    color: #fff;
+    font-size:20px; 
+}
+footer a span{
+    color: #FEAC00;
+}
+footer h5{
+    color: #fff;
+}
+.copyright{
+    background-color:#000;
+    border-top:1px solid #777;
+}
+footer .nav-item{
+    list-style: none;
+}
+footer .nav-item:hover{
+    color: #eee;
+}
+
+
+
+/******page about*****/
+
+/******Section team*****/
+main .team {
+    margin-top:50px;
+    margin-bottom:70px; 
+    
+}
+main .team .card{
+    border-color: #fff;
+    text-align: center;
+}
+main .team .card .icons a{
+    text-align: center;
+    color: #000;
+    padding-left:2.3rem; 
+}
+main .map{
+    padding-top:40px;
+    padding-bottom:30px; 
+}
+/******Section breacarb*****/
+header .card-img{
+  height: 40vh;
+   
+    
+    
+}
+
+header .ff {
+    height:20vh;
+    padding:40px; 
+    
+    
+}
+
+header .ff .breadcrumb{
+    background: none;
+    color: #fff;
+    font-size: bold;
+     
+}
+header .ff .breadcrumb a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
